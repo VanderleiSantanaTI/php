@@ -1,0 +1,74 @@
+body{
+	background-color: #ddd;
+	font-family: Tahoma;
+	
+}
+
+
+
+div#corpo{
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 30px #777;
+	
+}
+table.Listagem{
+	width:100%;    #espalha as tabela em 100% no bloco
+	text-align: lef;
+	border-collapse: collapse; #faz com que as células fiquem juntas
+	
+}
+table.Listagem tr{
+	height:50px; /*mexe na altura da celula*/
+}
+
+table.Listagem td{
+	border: 1px solid #ddd ; 
+	padding: 10px;
+}
+table.Listagem tr:nth-child(even){
+	background-color: #f2f2f2;   /*modifica a cor de cada linha intercalando*/
+}
+table.Listagem td:nth-child(1){
+	width: 50px;	#/*cologar a largura da primeira coluna com 50px*/
+}
+
+table.Listagem td:nth-child(3){
+	width: 50px;    /*cologar a largura da terceira coluna com 50px*/
+}
+
+img.mini{
+	height:60px;
+}
+
+table.detalhes td{
+	text-align: justify;
+	padding: 10px;
+	vertical-align: top; 
+	#border: 1px solid black;
+}
+table.detalhes {
+	width:800px;
+	
+	
+}
+img.full{
+	box-shadow: -5px 5px 15px 1px black; /*sobra para (horizontal,  vertical, espalha, aumenta, cor)*/
+	height:400px;
+	transition-duration: 0.5s;
+}
+img.full:hover{
+    transform: scale(1.5); 
+	transition-duration: 0.5s;
+	
+}
+nav.nave{
+	color:red;
+	text-align: center;
+}
+
+tr.fot{
+	box-shadow: 0px 1px 6px  black;
+}
