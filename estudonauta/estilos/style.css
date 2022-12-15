@@ -2,6 +2,7 @@ body{
 	background-color: #ddd;
 	font-family: Tahoma;
 	
+	
 }
 header{
 	font-family: 10px;
@@ -22,9 +23,9 @@ form#busca{
 	text-align: right;
 }
 table.Listagem{
-	width:100%;    #espalha as tabela em 100% no bloco
+	width:100%;    /*espalha as tabela em 100% no bloco*/
 	text-align: lef;
-	border-collapse: collapse; #faz com que as células fiquem juntas
+	border-collapse: collapse; /*faz com que as células fiquem juntas*/
 	
 }
 table.Listagem tr{
@@ -39,7 +40,7 @@ table.Listagem tr:nth-child(even){
 	background-color: #f2f2f2;   /*modifica a cor de cada linha intercalando*/
 }
 table.Listagem td:nth-child(1){
-	width: 50px;	#/*cologar a largura da primeira coluna com 50px*/
+	width: 50px;	/*cologar a largura da primeira coluna com 50px*/
 }
 
 table.Listagem td:nth-child(3){
@@ -54,8 +55,9 @@ table.detalhes td{
 	text-align: justify;
 	padding: 10px;
 	vertical-align: top; 
-	#border: 1px solid black;
+	/*border: 1px solid black;*/
 }
+
 table.detalhes {
 	width:800px;
 	
@@ -67,7 +69,7 @@ img.full{
 	transition-duration: 0.5s;
 }
 img.full:hover{
-    transform: scale(1.5); 
+    transform: scale(1.1); 
 	transition-duration: 0.5s;
 	
 }

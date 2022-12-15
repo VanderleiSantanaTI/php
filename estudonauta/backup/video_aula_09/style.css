@@ -67,7 +67,7 @@ img.full{
 	transition-duration: 0.5s;
 }
 img.full:hover{
-    transform: scale(1.5); 
+    transform: scale(1.2); 
 	transition-duration: 0.5s;
 	
 }
