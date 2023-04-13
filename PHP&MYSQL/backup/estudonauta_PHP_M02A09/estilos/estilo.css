@@ -1,0 +1,61 @@
+﻿body {
+	background-color: #ddd;
+	font-family: Tahoma;
+}
+
+div#corpo {
+	width: 800px;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0px 0px 30px #777;
+	padding: 20px;
+	background-color: white;
+}
+
+img.mini {
+	height: 50px;
+}
+
+img.grande {
+	height: 400px;
+}
+
+table.listagem {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table.listagem tr {
+	height: 50px;
+}
+
+table.listagem td {
+	/*border: 1px solid #ddd;*/
+	padding: 5px;
+}
+
+table.listagem tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table.listagem td:nth-child(1) {
+	width: 50px;
+	text-align: center;
+}
+
+table.listagem td:nth-child(3) {
+	width: 90px;
+	text-align: right;
+}
+
+table.detalhes td {
+	vertical-align: top;
+	padding: 10px;
+	/*border: 1px solid black;*/
+}
+
+p.pequeno {
+	font-size: 8pt;
+	text-align: right;
+}

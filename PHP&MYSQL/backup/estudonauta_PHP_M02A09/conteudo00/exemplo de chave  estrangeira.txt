@@ -1,0 +1,12 @@
+CREATE TABLE `jogos` (
+  `cod` int(11) NOT NULL,
+  `nome` varchar(30) NOT NULL,
+  `genero` int(11) NOT NULL,
+  `produtora` int(11) NOT NULL,
+  `descricao` text NOT NULL,
+  `nota` decimal(4,2) NOT NULL,
+  `capa` varchar(40) DEFAULT NULL,
+primary key (cod) not null,
+foreign key(genero) references tabela_generos(god);
+foreign key(produtora) references tabela_produtoras(cod)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

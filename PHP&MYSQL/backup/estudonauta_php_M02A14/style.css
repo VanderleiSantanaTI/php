@@ -1,0 +1,112 @@
+body{
+	background-color: #ddd;
+	font-family: Tahoma;
+	
+	
+}
+header{
+	font-family: 10px;
+	text-align: right;
+}
+
+
+div#corpo{
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 30px #777;
+	
+}
+form#busca{
+	font-size: 10px;
+	text-align: right;
+}
+table.Listagem{
+	width:100%;    /*espalha as tabela em 100% no bloco*/
+	text-align: lef;
+	border-collapse: collapse; /*faz com que as células fiquem juntas*/
+	
+}
+table.Listagem tr{
+	height:50px; /*mexe na altura da celula*/
+}
+
+table.Listagem td{
+	border: 1px solid  #ddd ; 
+	padding: 10px;
+}
+table.Listagem tr:nth-child(even){
+	background-color: #f2f2f2;   /*modifica a cor de cada linha intercalando*/
+}
+table.Listagem td:nth-child(1){
+	width: 50px;	/*cologar a largura da primeira coluna com 50px*/
+}
+
+table.Listagem td:nth-child(3){
+	width: 50px;    /*cologar a largura da terceira coluna com 50px*/
+}
+
+img.mini{
+	height:60px;
+}
+
+table.detalhes td{
+	text-align: justify;
+	padding: 10px;
+	vertical-align: top ; 
+	/*border: 1px solid black;*/
+}
+
+table.detalhes {
+	width:800px;
+	
+	
+}
+img.full{
+	box-shadow: 0px 5px 15px 1px black; /*sobra para (horizontal,  vertical, espalha, aumenta, cor)*/
+	height:400px;
+	transition-duration: 0.5s;
+}
+img.full:hover{
+    transform: scale(1.1); 
+	transition-duration: 0.5s;
+	
+}
+footer{
+	background-color: #f2f2f2;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+}
+p.pequeno{
+	font-size: 12pt;
+	text-align: right;
+}
+div.sucesso{
+padding: 7px 15px;
+margin-bottom: 15px;
+border-radius: 15px;
+background-color: rgba(226, 239, 218);
+color: rgb(74, 116, 67);
+}
+div.aviso{
+	padding: 7px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgba(251, 248, 229);
+	color: rgb(134, 110, 66);
+}
+div.erro{
+	padding: 7px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgba(239, 223, 222);
+	color: rgb(157, 75, 69);
+}
+
+
+
+
+
+
