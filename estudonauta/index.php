@@ -4,6 +4,7 @@
 <head>
    <title> Listagem de jogos </title>
    <meta charset="UTF-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="estilos/style.css"/>
   
   
@@ -22,7 +23,7 @@
       <div id="corpo">
 	      <?php include_once "topo.php";?> 
 	     <H1>Escolha seu jogo</H1>
-		 <form method="get" id="busca" action="index.php"/>
+		 <form method="get" id="busca" action="index.php">
 		 Ordenar:
 		 <a href="index.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
 		 <a href="index.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
