@@ -10,6 +10,6 @@ if($conexao->connect_errno){
     echo "Erro";
 }
 else{
-    echo " Conexao efetuada com sucesso";
+    echo "Conexao efetuada com sucesso";
 }
 ?>
