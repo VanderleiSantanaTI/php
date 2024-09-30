@@ -1,0 +1,30 @@
+/* Estilos específicos para o rodapé */
+footer {
+           /* Largura total */
+    bottom: 0;                  /* Posiciona na parte inferior */
+    margin: auto;
+}
+/* Estilos específicos para o rodapé */
+footer {
+    background-color: #333;       /* Cor de fundo do rodapé */
+    color: white;                 /* Cor do texto */
+    text-align: center;           /* Centraliza o texto */
+    padding: 20px;                /* Espaçamento interno */
+    position: fixed;           /* Permite que o rodapé se mova com a página */
+    bottom: 0;                    /* Posiciona na parte inferior */
+    width: 100%;                  /* Largura total */
+}
+
+footer p {
+    margin: 0;                   /* Remove margens padrão do parágrafo */
+    font-size: 14px;             /* Tamanho da fonte */
+}
+
+footer a {
+    color: white;                /* Cor dos links */
+    text-decoration: none;       /* Remove sublinhado */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Sublinha ao passar o mouse */
+}

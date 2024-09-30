@@ -1,0 +1,26 @@
+/* Estilos específicos para o cabeçalho */
+header {
+    background-color: #068ED0; /* Cor de fundo do cabeçalho */
+    color: white;               /* Cor do texto */
+    padding: 20px;             /* Espaçamento interno */
+    text-align: center;        /* Centraliza o texto */
+}
+
+nav ul {
+    list-style-type: none;     /* Remove marcadores */
+    padding: 0;                /* Remove espaçamento */
+}
+
+nav ul li {
+    display: inline;           /* Exibe os itens em linha */
+    margin: 0 15px;           /* Margem entre os itens */
+}
+
+nav a {
+    color: white;             /* Cor dos links */
+    text-decoration: none;    /* Remove sublinhado */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
