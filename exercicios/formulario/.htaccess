@@ -1,0 +1,5 @@
+
+RewriteEngine On
+RewriteRule ^$ formulario.php [L]
+RewriteRule ^formulario$ formulario.php [L]
+Redirect 301 /index.php http://localhost/formulario.php
